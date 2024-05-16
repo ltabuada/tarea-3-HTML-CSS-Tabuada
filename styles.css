@@ -1,0 +1,65 @@
+:root {
+    --ColorAzul : blue;
+    --ColorAmarillo : yellow;
+    --ColorR : white; 
+}
+body{
+    background-image: url(https://media.urgente24.com/p/25f5c799541febf02b14bc4eb5a7f107/adjuntos/319/imagenes/002/799/0002799316/la-bombonera.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+li{
+    display: inline-block;
+
+}
+.hola{
+    background-color: blue;
+}
+titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: var(--ColorAmarillo)
+}
+
+subtitulo {
+    font-family:serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: var(--ColorAmarillo)
+    
+}
+img{
+    width: 450px;
+    transition: 1s;
+
+}
+img:hover{
+    width: 600px;
+}
+.desc{
+  font-size: 20px;
+  color: var(--ColorR);
+  text-align: center;
+}
+.sub{
+    background-color: blue;
+}
+.goles{
+   background-color: blue;
+   color : var(--ColorAmarillo);
+}
+img{
+border:5px solid yellow;
+
+}
+.pie{
+    color: var(--ColorR)    
+}
